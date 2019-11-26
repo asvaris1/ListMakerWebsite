@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+    <title>Upcoming Events</title>
+	    <!--External Stylesheet -->
+    	    <!--External Stylesheet -->
+		<link rel="stylesheet" type="text/css" href="WebpageCSS.css">
+		<link rel="stylesheet" href="jquery-ui-1.12.1.custom/jquery-ui.min.css">
+		<link href='https://fonts.googleapis.com/css?family=Didact%20Gothic' rel='stylesheet'>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+		<script src="ericjgagnon-wickedpicker-2a8950a/src/wickedpicker.js"></script>
+		<script src="testsExams.js"></script>
+
+</head>
+
+<body class="body3">
+	
+	<!--Header -->
+	<header class="header">
+		<h1>The Ultimate College List</h1>
+	</header>
+	
+	<!--Main Content -->
+	<main>
+
+		<!--Navigation Bar -->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="listpage.html">Choose a List</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+
+	<!--Form for Upcoming Exams -->
+	<div class="container">
+		<form action="action_page.php">
+
+	<!--Form for Exam 1 -->
+	<div class="ev1">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT1" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test1">Class: </label>
+		<input type="text" id="test1" name="test1" placeholder="Class Name"><br><br>
+		<label for="dateT1">Date: </label>
+		<input type="text" class="datepicker" id="dateT1" name="dateT1"> <br><br>
+			
+	</div>
+	
+	<!--Form for Exam 2 -->
+	<div class="ev2">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT2" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test2">Class: </label>
+		<input type="text" id="test2" name="test2" placeholder="Class Name"><br><br>
+		<label for="dateT2">Date: </label>
+		<input type="text" class="datepicker" id="dateT2" name="dateT2"> <br><br>
+			
+	</div>
+	
+	<!--Form for Exam 3 -->
+	<div class="ev3">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT3" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test3">Class: </label>
+		<input type="text" id="test3" name="test3" placeholder="Class Name"><br><br>
+		<label for="dateT3">Date: </label>
+		<input type="text" class="datepicker" id="dateT3" name="dateT3"> <br><br>
+			
+	</div>
+	   
+	<!--Form for Exam 4 -->
+	<div class="ev4">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT4" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test4">Class: </label>
+		<input type="text" id="test4" name="test4" placeholder="Class Name"><br><br>
+		<label for="dateT4">Date: </label>
+		<input type="text" class="datepicker" id="dateT4" name="dateT4"> <br><br>
+		</div>
+	   
+	<!--Form for Exam 5 -->
+	<div class="ev5">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT5" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test5">Class: </label>
+		<input type="text" id="test5" name="test5" placeholder="Class Name"><br><br>
+		<label for="dateT5">Date: </label>
+		<input type="text" class="datepicker" id="dateT5" name="dateT5"> <br><br>
+		</div>
+	   
+	   <!--Form for Exam 6 -->
+	<div class="ev6">
+			
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT6" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test6">Class: </label>
+		<input type="text" id="test6" name="test6" placeholder="Class Name"><br><br>
+		<label for="dateT6">Date: </label>
+		<input type="text" class="datepicker" id="dateT6" name="dateT6"> <br><br>
+		</div>
+	   
+	<!--Form for Exam 7 -->
+	<div class="ev7">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT7" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test7">Class: </label>
+		<input type="text" id="test7" name="test7" placeholder="Class Name"><br><br>
+		<label for="dateT7">Date: </label>
+		<input type="text" class="datepicker" id="dateT7" name="dateT7"> <br><br>
+		</div>
+	   
+	<!--Form for Exam 8 -->
+	<div class="ev8">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT8" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test8">Class: </label>
+		<input type="text" id="test8" name="test8" placeholder="Class Name"><br><br>
+		<label for="dateT8">Date: </label>
+	<input type="text" class="datepicker" id="dateT8" name="dateT8"> <br><br>
+		</div>
+	   
+	<!--Form for Exam 9 -->
+	<div class="ev3">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT9" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test9">Class: </label>
+		<input type="text" id="test9" name="test9" placeholder="Class Name"><br><br>
+		<label for="dateT9">Date: </label>
+		<input type="text" class="datepicker" id="dateT9" name="dateT9"> <br><br>
+		</div>
+	   
+	<!--Form for Exam 10 -->
+	<div class="ev5">
+	
+		<!--Select Exam Type -->
+		<label>Type: </label>
+			<select id="selectT10" name="selectT10">
+				<option value="default">Choose</option>
+				<option value="test">Test</option>
+				<option value="quiz">Quiz</option>
+				<option value="midterm">Midterm</option>
+				<option value="exam">Exam</option>
+			</select><br><br>
+		<label for="test10">Class: </label>
+		<input type="text" id="test10" name="test10" placeholder="Class Name"><br><br>
+		<label for="dateT10">Date: </label>
+		<input type="text" class="datepicker" id="dateT10" name="dateT10"> <br><br>
+		</div>
+	   
+			<!--Print Form -->
+		<input class="submit" type="button" onclick="printDiv('print-table')" value="Print" /><br><br><br><br><br><br><br><br>
+	
+	</form>
+	 
+	</div>
+	  
+</main>
+
+
+	<!--Footer -->
+	<footer class="footer">
+		<p>&copy; Alina Svarishchuk</p>
+		<p>Email: <a href="mailto:asvaris1@uncc.edu">
+		asvaris1@uncc.edu</a>.</p>
+	</footer>
+
+
+</body>
+
+</html>

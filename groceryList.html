@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+    <title>Grocery List</title>
+	    <!--External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="WebpageCSS.css">
+	<link href='https://fonts.googleapis.com/css?family=Didact%20Gothic' rel='stylesheet'>
+	<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="jquery-check-all-0.5.0/jquery-check-all.js"></script>
+	<script src="groceryList.js"></script>
+
+</head>
+
+<body>
+
+	<!--Header -->
+	<header class="header">
+		<h1>The Ultimate College List</h1>
+	</header>
+	
+<main>
+
+	<!--Navigation Bar -->
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="listpage.html">Choose a List</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+		<li><a href="about.html">About</a></li>
+	</ul>
+
+
+	<!--Dairy Options Checkboxes -->
+	
+	<div class="category1">	
+		<p class="category"> Dairy </p>
+			<input type="checkbox" name="milk" value="Milk"> Milk<br>
+			<input type="checkbox" name="cheese" value="Cheese"> Cheese<br>
+			<input type="checkbox" name="sourcream" value="Sour Cream"> Sour Cream<br>
+			<input type="checkbox" name="yogurt" value="Yogurt"> Yogurt<br>
+			<input type="checkbox" name="creamer" value="Creamer"> Coffee Creamer<br>
+			<input type="checkbox" name="butter" value="Butter"> Butter<br>
+			<input type="checkbox" id="mainCheckbox1" value="checkuncheck" > Check/Uncheck All <br><br>
+	</div>
+	  
+	  <!--Fruit Options Checkboxes -->
+	  <div class="category2">	
+	  <p class=category> Fruit </p>
+	  <input type="checkbox" name="apples" value="Apples"> Apples<br>
+	  <input type="checkbox" name="bananas" value="Bananas"> Bananas<br>
+	  <input type="checkbox" name="pears" value="Pears"> Pears<br>
+	  <input type="checkbox" name="raspberries" value="Raspberries"> Raspberries<br>
+	  <input type="checkbox" name="blueberries" value="Blueberries"> Blueberries<br>
+	  <input type="checkbox" name="blackberries" value="Blackberries"> Blackberries<br>
+	  <input type="checkbox" name="oranges" value="Oranges"> Oranges<br>
+	  <input type="checkbox" id="mainCheckbox2" value="checkuncheck" > Check/Uncheck All <br><br>
+	  </div>
+
+	  
+	<!--Condiment Options Checkboxes -->
+	<div class="category3">	
+		<p class="category"> Condiments </p>
+			<input type="checkbox" name="mayonnaise" value="Mayonnaise"> Mayonaisse<br>
+			<input type="checkbox" name="ketchup" value="Ketchup"> Ketchup<br>
+			<input type="checkbox" name="relish" value="Relish"> Relish<br>
+			<input type="checkbox" name="mustard" value="Mustard"> Mustard<br>
+			<input type="checkbox" name="ranch" value="Ranch"> Ranch<br>
+			<input type="checkbox" name="pickles" value="Pickles"> Pickles<br>
+			<input type="checkbox" id="mainCheckbox3" value="checkuncheck" > Check/Uncheck All <br><br>
+	</div>
+	  
+	  <!--Vegetable Options Checkboxes -->
+	  <div class="category4">	
+	  <p class=category> Vegetables </p>
+	  <input type="checkbox" name="cucumbers" value="Cucumbers"> Cucumbers<br>
+	  <input type="checkbox" name="tomatoes" value="Tomatoes"> Tomatoes<br>
+	  <input type="checkbox" name="carrots" value="Carrots"> Carrots<br>
+	  <input type="checkbox" name="broccoli" value="Broccoli"> Broccoli<br>
+	  <input type="checkbox" name="avocados" value="Avocados"> Avocados<br>
+	  <input type="checkbox" id="mainCheckbox4" value="checkuncheck" > Check/Uncheck All <br><br>
+	  </div>
+	  
+	 <!--Beverage Options Checkboxes -->
+	<div class="category5">	
+		<p class="category"> Beverages </p>
+			<input type="checkbox" name="juice" value="Juice"> Juice<br>
+			<input type="checkbox" name="soda" value="Soda"> Soda<br>
+			<input type="checkbox" name="chips" value="Chips"> Chips<br>
+			<input type="checkbox" name="water" value="Water"> Water<br>
+			<input type="checkbox" id="mainCheckbox5" value="checkuncheck" > Check/Uncheck All <br><br>
+	</div>
+	  
+	  <!--Grains Options Checkboxes -->
+	  <div class="category6">	
+	  <p class=category> Grains </p>
+	  <input type="checkbox" name="bread" value="Bread"> Bread<br>
+	  <input type="checkbox" name="pasta" value="Pasta"> Pasta<br>
+	  <input type="checkbox" name="tomatosauce" value="Tomato Sauce"> Tomato Suace<br>
+	  <input type="checkbox" id="mainCheckbox6" value="checkuncheck" > Check/Uncheck All <br><br>
+	  </div>
+	  
+	  <!--Meat Options Checkboxes -->
+	  <div class="category7">	
+	  <p class=category> Meat </p>
+	  <input type="checkbox" name="lunchmeat" value="Lunchmeat"> Lunchmeat<br>
+	  <input type="checkbox" name="tuna" value="Tuna"> Tuna<br>
+	  <input type="checkbox" name="chicken" value="Chicken"> Chicken<br>
+	  <input type="checkbox" name="beef" value="Beef"> Beef<br>
+	  <input type="checkbox" name="fish" value="Fish"> Fish<br>
+	  <input type="checkbox" id="mainCheckbox7" value="checkuncheck" > Check/Uncheck All <br><br>
+	  </div>
+	  
+	  <!--Bakery Options Checkboxes -->
+	  <div class="category8">	
+	  <p class=category> Bakery </p>
+	  <input type="checkbox" name="cupcakes" value="Cupcakes"> Cupcakes<br>
+	  <input type="checkbox" name="cake" value="Cake"> Cake<br>
+	  <input type="checkbox" name="granolabar" value="Granola Bars"> Granola Bars<br>
+	  <input type="checkbox" name="cereal" value="Cereal"> Cereal<br>
+	  <input type="checkbox" name="poptarts" value="Poptarts"> Poptarts<br>
+	  <input type="checkbox" id="mainCheckbox8" value="checkuncheck" > Check/Uncheck All <br><br>
+	  </div>
+	  
+	  	<!--Print Form -->
+		<input class="submit" type="button" onclick="printDiv('print-table')" value="Print" id="print" /><br><br><br><br><br><br><br><br>
+
+
+
+</main>
+
+	<!--Footer -->
+	<footer class="footer">
+		<p>&copy; Alina Svarishchuk</p>
+		<p>Email: <a href="mailto:asvaris1@uncc.edu">
+		asvaris1@uncc.edu</a></p>
+	</footer>
+
+
+
+</body>
+
+
+</html>

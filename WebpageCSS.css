@@ -1,0 +1,516 @@
+/*Navigation bar styling*/
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: PaleTurquoise;
+}
+
+/*Navigation items styling*/
+li {
+	float: left;
+	width: 25%
+}
+
+/*Navigation text styling*/
+li a {
+	display: block;
+	font-family: 'Didact Gothic';
+	font-size: 18px;
+	color: rgba(0,0,0,.8);
+	text-align: center;
+	padding: 14px 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*Change navigation item color on hover*/
+li a:hover {
+	background-color: Turquoise;
+}
+
+html {
+	position: relative;
+    min-height: 100%;
+}
+
+
+/*Basic guidelines for body text and color*/
+body {
+	background: White;
+	font: 600 1em/1 'Didact Gothic', sans-serif;
+	color: rgba(0,0,0,.7);
+	margin: 0 0 100px 0;
+	min-height: 100%;
+}
+
+/*Alternate height for shorter body*/
+.body2 {
+	height: 1300px;
+	
+}
+
+/*Alternate height for longer body*/
+.body3 {
+	height: 1500px;
+}
+
+
+
+/*Format titles on information pages*/
+.mainpage1 {
+	position: static;
+	border: none;
+	text-align: center;
+	padding: 40px 0px 40px 0px;
+	color: rgba(0,0,0,.7);
+	font: 400 50px/0.8 'Cookie', Helvetica, sans-serif;
+	text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+	letter-spacing: .03em;
+	width: 100%;
+	margin: auto;
+}
+
+/*Format text on information pages*/
+.mainpage2 {
+	position: static;
+	text-align: center;
+	top: 300px;
+	left: 50px;
+	color: rgba(0,0,0,.8);
+	font-family: 'Didact Gothic';font-size: 22px;
+	letter-spacing: .01em;
+	width: 60%;
+	padding: 0% 20% 5% 20%;
+} 
+
+/*Format text on about page*/
+.aboutpage {
+	position: static;
+	text-align: center;
+	color: rgba(0,0,0,.8);
+	font-family: 'Didact Gothic';font-size: 20px;
+	letter-spacing: .01em;
+	width: 60%;
+	padding: 0% 20% 5% 20%;
+} 
+
+
+/*Format text on list options page*/
+.listPage1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+	text-shadow: .04em .04em 0 #9cb8b3;
+	padding: 20px 0px 20px 0px;
+}
+
+/*Format checkboxes*/
+input[type="checkbox"] {
+	text-align: right;
+}
+
+/*Format Header*/
+.header{
+	font: 600 1.5em/1 'Raleway', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	background: MintCream;
+	letter-spacing: .5em;
+	padding: 30px;
+	text-transform: uppercase;
+	color: rgba(0,0,0,.5);
+	z-index: 100;
+	text-shadow: .06em .06em 0 #9cb8b3;
+}
+
+/*Format category titles*/
+.category {
+	font: 600 1.5em/1 'Didact Gothic', sans-serif;
+	text-transform: uppercase;
+}
+
+/*Format main page images*/
+.listimage {
+	display: block;
+	float: left;
+	width: 20%;
+	height: 20%;
+	padding: 20px 30px 10px 80px;
+}
+
+.container {
+  position: relative;
+  width: 100%
+}
+
+.wImage {
+	width: 60%;
+	height: auto;
+	padding: 0% 20% 0% 20%;
+}
+
+
+
+/*Format contact page images*/
+.emailimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
+	padding-top: 50px;
+}
+
+/*Format about page images*/
+.aboutimage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+	padding-top: 50px;
+}
+
+/*Format main page images*/
+.listimage2 {
+	width: 60%;
+	height: auto;
+	padding: 0% 20% 5% 20%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn1 {
+	float: left;
+	width: 42%;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 16px;
+	text-shadow: .04em .04em 0 #9cb8b3;
+	background-color: azure;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn2 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	background-color: honeydew;
+	font-size: 16px;
+	text-shadow: .04em .04em 0 #9cb8b3;
+	text-transform: uppercase;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn3 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: ivory;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn4 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	background-color: ghostwhite;
+	text-transform: uppercase;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn5 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	background-color: snow;
+	text-transform: uppercase;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn6 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	background-color: seashell;
+	text-transform: uppercase;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn7 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	padding: 2%;
+	text-transform: uppercase;
+	background-color: azure;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.listcolumn8 {
+	float: left;
+	width: 42%;
+	text-align: center;
+	background-color: honeydew;
+	text-transform: uppercase;
+	padding: 2%;
+	margin: 2%;
+}
+
+/*Format checkbox selection area*/
+.category1 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: honeydew;
+	padding: 2%;
+	margin: 2%;
+	height: 230px;
+}
+
+/*Format checkbox selection area*/
+.category2 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: seashell;
+	padding: 2%;
+	margin: 2%;
+	height: 230px;
+}
+
+/*Format checkbox selection area*/
+.category3 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: snow;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format checkbox selection area*/
+.category4 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: azure;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format checkbox selection area*/
+.category5 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: ghostwhite;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format checkbox selection area*/
+.category6 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: ivory;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format checkbox selection area*/
+.category7 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: snow;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format checkbox selection area*/
+.category8 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: honeydew;
+	padding: 2%;
+	margin: 2%;
+	height: 200px;
+}
+
+/*Format submit button*/
+.submit {
+	text-align: center;
+	font-size: 20px;
+	padding: 12px 28px;
+	position:relative; 
+	top:25px; 
+	left: 40%;
+	border-radius: 4px;
+}
+
+/*Change colorm of submit on hover*/
+.submit:hover {
+	background-color: Turquoise;
+	color: white;
+}
+
+/*Format checkbox selection area*/
+.category9 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: snow;
+	padding: 2%;
+	margin: 2%;
+	height: 250px;
+}
+
+/*Format checkbox selection area*/
+.category10 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: honeydew;
+	padding: 2%;
+	margin: 2%;
+	height: 250px;
+}
+
+/*Format event selection area*/
+.ev1 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: honeydew;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev2 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: snow;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev3 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: ghostwhite;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev4 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: ivory;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev5 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: azure;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev6 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: honeydew;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev7 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: ivory;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+/*Format event selection area*/
+.ev8 {
+	float: left;
+	width: 42%;
+	text-align: left;
+	background-color: snow;
+	padding: 2%;
+	margin: 2%;
+	height: 120px;
+}
+
+#reddit {
+	text-align: center;
+	padding: 10% 0% 10% 0%;
+	
+}
+
+#redditContent {
+	margin: 5% 5% 20% 5%;
+	background-color: GhostWhite;
+	
+}
+
+/*Format footer on page and footer contents*/
+.footer {
+	color: black;
+	text-align: center;
+	font-family: 'Didact Gothic';font-size: 18px;
+	background: MintCream;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%; 
+	overflow: hidden
+}
+
+main {
+	margin-bottom: 100px;
+}

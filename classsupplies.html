@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+    <title>Class Supplies</title>
+	    <!--External Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="WebpageCSS.css">
+	<link href='https://fonts.googleapis.com/css?family=Didact%20Gothic' rel='stylesheet'>
+	<script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="jquery-check-all-0.5.0/jquery-check-all.js"></script>
+	<script src="classsupplies.js"></script>
+
+</head>
+
+
+
+<body class="body2">
+
+	<!--Header -->
+	<header class="header">
+		<h1>The Ultimate College List</h1>
+	</header>
+
+	<!--Main Content -->
+	<main>
+	
+		<!--Navigation Bar -->
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="listpage.html">Choose a List</a></li>
+			<li><a href="contact.html">Contact Us</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+
+	<!--Supplies Form -->
+	<form>
+	
+	<!--Writing Utensils Checkbox Selections -->
+	<div class="category9">
+		<p class=category> Writing Utensils </p>
+			<input type="checkbox" name="pencils" value="Pencils"> Pencils<br>
+			<input type="checkbox" name="mechpencils" value="Mechanical Pencils"> Mechanical Pencils<br>
+			<input type="checkbox" name="blackpens" value="Black Pens"> Black Pens<br>
+			<input type="checkbox" name="coloredpens" value="Colored Pens"> Colored Pens<br>
+			<input type="checkbox" name="whiteout" value="Whiteout"> White Out<br>
+			<input type="checkbox" name="highlighters" value="Highlighters"> Highlighters<br>
+			<input type="checkbox" name="pencilsharpener" value="Pencil Sharpener"> Pencil Sharpener<br>
+			<input type="checkbox" id="mainCheckbox1" value="checkuncheck" > Check/Uncheck All <br><br>
+	</div>
+	
+	<!--Other Checkbox Selections -->
+	<div class="category10">
+		<p class=category> Other </p>
+			<input type="checkbox" name="stickynotes" value="Sticky Notes"> Sticky Notes<br>
+			<input type="checkbox" name="stapler" value="Stapler"> Stapler<br>
+			<input type="checkbox" name="flashcards" value="Flashcards"> Flashcards<br>
+			<input type="checkbox" name="notebook" value="Notebook"> Notebook<br>
+			<input type="checkbox" name="folder" value="Folder"> Folder<br>
+			<input type="checkbox" name="ruler" value="Ruler"> Ruler<br>
+			<input type="checkbox" name="planner" value="Planner"> Planner<br>
+			<input type="checkbox" name="binder" value="Binder"> Binder<br>
+			<input type="checkbox" id="mainCheckbox2" value="checkuncheck" > Check/Uncheck All <br><br>
+	</div>
+
+			<!--Print Form -->
+		<input class="submit" type="button" onclick="printDiv('print-table')" value="Print" id="print" />
+
+	</form>
+
+
+</main>
+
+	<!--Footer -->
+	<footer class="footer">
+		<p>&copy; Alina Svarishchuk</p>
+		<p>Email: <a href="mailto:asvaris1@uncc.edu">
+		asvaris1@uncc.edu</a>.</p>
+	</footer>
+
+
+</body>
+
+
+
+</html>
